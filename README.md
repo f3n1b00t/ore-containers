@@ -69,7 +69,7 @@ We can pass enviroment variables through .env file:
    PRIORITY_FEE=5000000
    THREAD_COUNT=16
    ```
-2.Run miner container:
+2. Run miner container:
    ``` bash
    docker run --env-file .env oreminer
    ```
